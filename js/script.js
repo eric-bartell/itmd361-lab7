@@ -5,7 +5,7 @@ function init(){
   function buttonclick(){
   	 var input = document.getElementById('entryinput');
   	 alert('Eric Bartell: '+input.value);
-  	 document.getElementById('textoutput').value = input.value;
+  	 document.getElementById('textoutput').innerHTML = input.value();
   }  
 }
 
