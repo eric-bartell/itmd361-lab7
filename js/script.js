@@ -3,9 +3,9 @@ function init(){
   document.getElementById('entrybutton').addEventListener('click', buttonclick);
 
   function buttonclick(){
-  	 var input = document.getElementById('entryinput');
-  	 alert('Eric Bartell: '+input.value);
-  	 document.getElementById('textoutput').innerHTML = input.value();
+  	 var input = document.getElementById('entryinput').value;
+  	 alert('Eric Bartell: '+input);
+  	 document.getElementById('textoutput').innerHTML = input;
   }  
 }
 
