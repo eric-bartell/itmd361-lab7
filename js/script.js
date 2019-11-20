@@ -1,11 +1,11 @@
 function init(){
 //add your javascrip between these two lines of code
-  document.getElementById("entrybutton").addEventListener("click", buttonclick);
+  document.getElementById('entrybutton').addEventListener('click', buttonclick);
 
   function buttonclick(){
-  	 var input = document.getElementById("entryinput");
-  	 alert("Eric Bartell: "+input.value);
-  	 document.getElementById("textoutput").innerHTML = input.value;
+  	 var input = document.getElementById('entryinput');
+  	 alert('Eric Bartell: '+input.value);
+  	 document.getElementById('textoutput').innerHTML = input.value;
   }  
 }
 
